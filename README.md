@@ -1,8 +1,10 @@
 #Getting and Cleaning Data Assignment
 
-The data was obtained from experiments conducted on 30 volunteers.  Each volunteer performed 6 activities (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing and Laying) while wearing a Samsung Galaxy smartphone on their waist.  The subjects were divided into a Test group and a Train group.  
+The purpose of this assignment is to demonstrate my ability to collect, work with, and clean a data set.
 
-A full description is available at the site where the data was obtained:
+The data used was obtained from the UC Irivine Machine Learning Repository and related to experiments on human activity recognition conducted on 30 volunteers .  Each volunteer performed 6 activities (Walking, Walking_Upstairs, Walking_Downstairs, Sitting, Standing and Laying) while wearing a Samsung Galaxy smartphone on their waist.  The subjects were divided into a Test group and a Train group.  
+
+A full description is available from the following site:
 
   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
