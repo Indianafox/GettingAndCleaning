@@ -20,4 +20,4 @@ A full description is available from the following site:
 
 The results are stored in the Github Results Repo shown below and include this Read_Me file, a Code_Book, the run_Analysis.R code and the two output files:
 
-	Indianafox/GettingAndCleaning
+	https://github.com/Indianafox/GettingAndCleaning
