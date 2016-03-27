@@ -48,6 +48,11 @@ Combined$Activity_Id <- NULL
 # standard deviation for each observation but still retain Subject Id and activity variables
 Combined_Reduced_Cols <- Combined[,grepl("Subject_Id|Activity$|.mean().|.std().",colnames(Combined))]
 
+# Reorder columns
+Combined_Reduced_Cols <- Combined_Reduced_Cols[,c(1,81,2:80)]
+
+# Output to a CSV file
+write.csv(Combined_Reduced_Cols,"Combined_Reduced_Cols.csv", row.names = FALSE)
 # Rename column names to make them more descriptive
 
 # Columns names starting with 't' renamed to start with 'time_'
@@ -70,3 +75,6 @@ colnames(Combined_Reduced_Cols) <- gsub("\\(\\)","",colnames(Combined_Reduced_Co
 # Produce average of each variable for each activity and each subject
 Summary_Data <- Combined_Reduced_Cols %>% group_by(Subject_Id,Activity) %>%
                 summarise_each(funs(mean))
+
+# Output to a CSV file
+write.csv(Summary_Data,"Sumary_Data.csv", row.names = FALSE)
