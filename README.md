@@ -4,7 +4,7 @@ The data was obtained from experiments conducted on 30 volunteers.  Each volunte
 
 A full description is available at the site where the data was obtained:
 
-  *[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones]
+  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ##Aim
 
