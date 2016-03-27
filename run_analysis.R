@@ -77,4 +77,4 @@ Summary_Data <- Combined_Reduced_Cols %>% group_by(Subject_Id,Activity) %>%
                 summarise_each(funs(mean))
 
 # Output to a CSV file
-write.table(Summary_Data,"Sumary_Data.csv", row.names = FALSE)
+write.table(Summary_Data,"Summary_Data.csv", row.names = FALSE)
