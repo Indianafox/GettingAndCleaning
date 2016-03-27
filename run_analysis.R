@@ -7,7 +7,7 @@
 install.packages("dplyr")
 library(dplyr) # Used for piping, group_by and summarise_each
 
-setwd("/Users/Denzel/Documents/Coursera")
+setwd("/Users/Documents/Coursera")
 
 # Read in data containing column labels Raw data 
 features <- read.table("features.txt")
